@@ -1,0 +1,54 @@
+$celeste: rgb(255, 255, 255);
+$aquamarine: #81d2e6;
+$teal: #EAE427;
+$forest-green: #379634;
+$pakistan-green: #2a3200;
+
+body {
+    background-color: $celeste;
+    box-sizing: border-box;
+    text-align: center;
+    color: salmon;
+}
+
+.lollie-list {
+    
+    .lollie-card-container {
+        display:list-item;
+        gap: 1rem;
+
+        .lollie-card {
+            flex-basis: 25%;
+            background-color: #D9D325;
+            padding: 2rem;
+            margin: 1rem;
+            display: flex;
+            gap: 1rem;
+    
+            .lollie-title-container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+    
+                .lollie-title {
+                    margin: 0 0 0.5rem 0;
+                }
+        
+                .lollie-category {
+                   margin: 0 0 0.5 0;
+                }
+            }
+    
+            .lollie-image {
+                width: 15rem;
+            }
+        }
+    }
+
+    
+}
+
+.new-lollie {
+       margin:auto
+}
