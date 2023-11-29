@@ -44,7 +44,7 @@ async function deleteLollie() {
 
 //Read
 async function getSavedLollies() {
-  const colRef = collection(db, 'Lollies');
+  const colRef = collection(db, 'lollies');
   const LollieQuery = await getDocs(query(colRef));
 
   lollieList.value = [];
@@ -60,15 +60,15 @@ async function getSavedLollies() {
     <h1>Lollies</h1>
   </header>
   <main>
-    <section class="Lollie-list">
+    <section class="lollie-list">
       <h3>Favourite Lollies</h3>
-      <div class="Lollie-card-container">
-        <div class="Lollie-card" v-for="Lollie in lollieList">
-          <div class="Lollie-title-container">
-            <h5 class="Lollie-title">{{ Lollie.name }}</h5>
-            <div class="Lollie-category"><i>{{ Lollie.category }}</i></div>
+      <div class="lollie-card-container">
+        <div class="lollie-card" v-for="Lollie in lollieList">
+          <div class="lollie-title-container">
+            <h5 class="lollie-title">{{ Lollie.name }}</h5>
+            <div class="lollie-category"><i>{{ Lollie.category }}</i></div>
           </div>
-          <img class="Lollie-image" :src="Lollie.imageUrl"/>
+          <img class="lollie-image" :src="Lollie.imageUrl"/>
         </div>
       </div>
       <button 

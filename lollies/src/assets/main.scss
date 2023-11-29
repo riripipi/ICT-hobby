@@ -5,21 +5,23 @@ $forest-green: #379634;
 $pakistan-green: #2a3200;
 
 body {
-    background-color: $celeste;
+    background-color: whitesmoke;
+    background-image:url(https://as2.ftcdn.net/v2/jpg/05/73/04/01/1000_F_573040144_TE4au4mfV000eudsrmj1Bhxmwa0hXMs3.jpg);
     box-sizing: border-box;
     text-align: center;
-    color: salmon;
+    color:crimson;
+    ;
 }
 
 .lollie-list {
     
     .lollie-card-container {
-        display:list-item;
+        display: flex;
         gap: 1rem;
 
         .lollie-card {
             flex-basis: 25%;
-            background-color: #D9D325;
+            background-color: #d4d168;
             padding: 2rem;
             margin: 1rem;
             display: flex;
