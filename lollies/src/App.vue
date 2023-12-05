@@ -57,7 +57,7 @@ async function getSavedLollies() {
 
 <template>
   <header>
-    <h1>Lollies</h1>
+    <h1 >Lollies</h1>
   </header>
   <main>
     <section class="lollie-list">
@@ -75,7 +75,7 @@ async function getSavedLollies() {
         v-if="!showCreateModal && !showDeleteModal"
         @click="showCreateModal = true"
       >
-        New Entry
+        New Entry 
       </button>
       <button 
         v-if="!showCreateModal && !showDeleteModal"
@@ -83,6 +83,8 @@ async function getSavedLollies() {
       >
         Delete Entry
       </button>
+
+      
     </section>
 
     <section class="new-Lollie" v-if="showCreateModal">

@@ -7,6 +7,8 @@ $pakistan-green: #2a3200;
 body {
     background-color: whitesmoke;
     background-image:url(https://as2.ftcdn.net/v2/jpg/05/73/04/01/1000_F_573040144_TE4au4mfV000eudsrmj1Bhxmwa0hXMs3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
     box-sizing: border-box;
     text-align: center;
     color:crimson;
@@ -21,7 +23,7 @@ body {
 
         .lollie-card {
             flex-basis: 25%;
-            background-color: #d4d168;
+            background-color: #ebe668;
             padding: 2rem;
             margin: 1rem;
             display: flex;
